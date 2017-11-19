@@ -31,7 +31,7 @@ public class PileOfCards
     {
         for (int j = 0; j < 52; j++) {  // repeat 52 times...
             // go through the array of cards, and swap each card with
-            //  another, randomly chosen card
+              //  another, randomly chosen card
             for (int i = 0; i < theCards.length; i++) {
                 int randomIndex = (int)(theCards.length*Math.random());
                 

@@ -4,36 +4,22 @@ import java.util.ArrayList;
 import java.util.HashSet;
 import java.util.Set;
 
-public class PlayerHand extends PileOfCards{
+public class PlayerHand extends PileOfCards {
 
-    ArrayList<Card> currentHand = new ArrayList();
+//    ArrayList<Card> PileOfCards = new ArrayList();
+    //USE PILEOFCARDS AS A MEANS OF STORING PLAYER CARDS
 
-    int cardCap = 5;
-
-    public void PlayerHand()
-    {
+    public void PlayerHand() {
         for (int i = 0; i < 5; i++) {
-            currentHand.add(topCard);
+            PileOfCards.add(topCard);
         }
-    }
-
-    public void drawCard()
-    {
-        if (currentHand.size() < cardCap)
-        {
-            currentHand.add(topCard);
-        }
-        else
-            {
-                System.out.println("Can't draw card! You already have 5!");
-            }
     }
 
     public Card releaseCard(Card card)
     {
-        if (currentHand.contains(card))
+        if (PileOfCards.contains(card))
         {
-            currentHand.remove(card);
+            PileOfCards.remove(card);
             return card;
         }
         return null;
@@ -41,22 +27,22 @@ public class PlayerHand extends PileOfCards{
 
     public void retrieveCard(PlayerHand selectedHand, Card card)
     {
-        if (currentHand.contains(card) && selectedHand.currentHand.contains(card))
+        if (PileOfCards.contains(card) && selectedHand.PileOfCards.contains(card))
         {
             selectedHand.releaseCard(card);
-            currentHand.add(card);
+            PileOfCards.add(card);
         }
     }
 
     public boolean combineCards()
     {
         Set<Card> dupes = new HashSet<>();
-        for (Card card : currentHand)
+        for (Card card : PileOfCards)
         {
             if (!dupes.add(card))
             {
-                currentHand.remove(card);
-                currentHand.remove(card);
+                PileOfCards.remove(card);
+                PileOfCards.remove(card);
                 return true;
             }
         }

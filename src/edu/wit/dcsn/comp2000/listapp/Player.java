@@ -8,7 +8,7 @@ public class Player
 
     PlayerHand hand = new PlayerHand();
 
-    public void Player(String name)
+    public Player(String name)
     {
         this.name = name;
     }
