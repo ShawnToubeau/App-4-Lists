@@ -1,11 +1,8 @@
-package edu.wit.dcsn.comp2000.listapp;
-
 public class PileOfCards
 //List of card objects privately
 //shuffle method
 //get method for index of certain values
 {
-    private Card[] theCards = new Card[52]; // array of Card objects
     
     public int topCard = 0;                // keeps track of the array index corresponding to the top of the deck
     
@@ -25,13 +22,29 @@ public class PileOfCards
             }
         }
     }
+    public void addCard(Card c){   
+        if (numCardsInHand < cardsInHand.length) {
+            cardsInHand[numCardsInHand] = c;
+            numCardsInHand++;  // we do this so that next time draw() is called, we get the next card
+        } else {
+            System.out.println("Hey, there are no more cards in this deck!");
+        }
+}
+    public void removeCard(int index){
+        //seaerches through the hand array and turn the index to null if in array
+        for (int i = 0; i < cardsInHand.length;i++){
+            
+                 cardsInHand[index] = null;
+                
+     
+}
 
     // Shuffles the deck by rearranging the Card objects in the array.
     public void shuffle()
     {
         for (int j = 0; j < 52; j++) {  // repeat 52 times...
             // go through the array of cards, and swap each card with
-              //  another, randomly chosen card
+            //  another, randomly chosen card
             for (int i = 0; i < theCards.length; i++) {
                 int randomIndex = (int)(theCards.length*Math.random());
                 
@@ -45,16 +58,6 @@ public class PileOfCards
 
     // Returns the Card object at the top of the deck, or null if the deck
     //  has been exhausted.
-    public Card draw()
-    {
-        if (topCard < theCards.length) {
-            topCard++;  // we do this so that next time draw() is called, we get the next card
-            return theCards[topCard-1];
-        } else {
-            System.out.println("Hey, there are no more cards in this deck!");
-            return null;
-        }
-    }
 
     // toString method -- just goes through the whole deck and adds each
     //  individual card to the returned string
