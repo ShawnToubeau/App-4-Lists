@@ -6,12 +6,16 @@ import java.util.Set;
 
 public class PlayerHand extends PileOfCards {
 
-//    ArrayList<Card> PileOfCards = new ArrayList();
+    PileOfCards<Card> PileOfCards = new PileOfCards<>();
     //USE PILEOFCARDS AS A MEANS OF STORING PLAYER CARDS
 
-    public void PlayerHand() {
-        for (int i = 0; i < 5; i++) {
-            PileOfCards.add(topCard);
+    // constructor for hand object
+    // pass in initial cards
+    public void PlayerHand(Card[] initialCards)
+    {
+        for (Card card : initialCards)
+        {
+            PileOfCards.add(card);
         }
     }
 
@@ -19,7 +23,7 @@ public class PlayerHand extends PileOfCards {
     {
         if (PileOfCards.contains(card))
         {
-            PileOfCards.remove(card);
+            PileOfCards.remove(PileOfCards.getEntry(card));
             return card;
         }
         return null;

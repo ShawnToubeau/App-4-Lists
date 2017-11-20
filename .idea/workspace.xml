@@ -2,9 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cc100d59-5480-4b25-baf9-d86a449f1539" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/edu/wit/dcsn/comp2000/listapp/ListInterface.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/edu/wit/dcsn/comp2000/listapp/Rank.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/edu/wit/dcsn/comp2000/listapp/Suit.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/edu/wit/dcsn/comp2000/listapp/Card.java" afterPath="$PROJECT_DIR$/src/edu/wit/dcsn/comp2000/listapp/Card.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/edu/wit/dcsn/comp2000/listapp/DeckOfCards.java" afterPath="$PROJECT_DIR$/src/edu/wit/dcsn/comp2000/listapp/DeckOfCards.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/edu/wit/dcsn/comp2000/listapp/PileOfCards.java" afterPath="$PROJECT_DIR$/src/edu/wit/dcsn/comp2000/listapp/PileOfCards.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/edu/wit/dcsn/comp2000/listapp/Player.java" afterPath="$PROJECT_DIR$/src/edu/wit/dcsn/comp2000/listapp/Player.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/edu/wit/dcsn/comp2000/listapp/PlayerHand.java" afterPath="$PROJECT_DIR$/src/edu/wit/dcsn/comp2000/listapp/PlayerHand.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -23,9 +27,12 @@
       <file leaf-file-name="Player.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/edu/wit/dcsn/comp2000/listapp/Player.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="10" column="10" lean-forward="false" selection-start-line="10" selection-start-column="10" selection-end-line="10" selection-end-column="10" />
-              <folding />
+            <state relative-caret-position="504">
+              <caret line="27" column="0" lean-forward="true" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+              <folding>
+                <element signature="e#198#199#0" expanded="true" />
+                <element signature="e#230#231#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -33,29 +40,13 @@
       <file leaf-file-name="PileOfCards.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/edu/wit/dcsn/comp2000/listapp/PileOfCards.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="744">
-              <caret line="33" column="4" lean-forward="false" selection-start-line="33" selection-start-column="4" selection-end-line="33" selection-end-column="4" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DeckOfCards.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/edu/wit/dcsn/comp2000/listapp/DeckOfCards.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="48">
-              <caret line="2" column="26" lean-forward="false" selection-start-line="2" selection-start-column="26" selection-end-line="2" selection-end-column="26" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Card.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/edu/wit/dcsn/comp2000/listapp/Card.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="48">
-              <caret line="2" column="17" lean-forward="false" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
-              <folding />
+            <state relative-caret-position="100">
+              <caret line="92" column="24" lean-forward="true" selection-start-line="92" selection-start-column="24" selection-end-line="92" selection-end-column="24" />
+              <folding>
+                <element signature="e#625#655#1" expanded="true" />
+                <element signature="e#1812#1813#0" expanded="true" />
+                <element signature="e#1854#1855#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -63,10 +54,22 @@
       <file leaf-file-name="PlayerHand.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/edu/wit/dcsn/comp2000/listapp/PlayerHand.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="15" lean-forward="false" selection-start-line="0" selection-start-column="15" selection-end-line="0" selection-end-column="15" />
+            <state relative-caret-position="576">
+              <caret line="24" column="9" lean-forward="true" selection-start-line="24" selection-start-column="9" selection-end-line="24" selection-end-column="9" />
               <folding>
                 <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DeckOfCards.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/edu/wit/dcsn/comp2000/listapp/DeckOfCards.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="672">
+              <caret line="28" column="9" lean-forward="true" selection-start-line="28" selection-start-column="9" selection-end-line="28" selection-end-column="9" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -94,16 +97,18 @@
       <list>
         <option value="$PROJECT_DIR$/src/edu/wit/dcsn/comp2000/listapp/CardGame.java" />
         <option value="$PROJECT_DIR$/src/edu/wit/dcsn/comp2000/listapp/DeckOfCards.java" />
-        <option value="$PROJECT_DIR$/src/edu/wit/dcsn/comp2000/listapp/PlayerHand.java" />
         <option value="$PROJECT_DIR$/src/edu/wit/dcsn/comp2000/listapp/Player.java" />
+        <option value="$PROJECT_DIR$/src/edu/wit/dcsn/comp2000/listapp/ListInterfaces.java" />
+        <option value="$PROJECT_DIR$/src/edu/wit/dcsn/comp2000/listapp/ListInterface.java" />
+        <option value="$PROJECT_DIR$/src/edu/wit/dcsn/comp2000/listapp/PlayerHand.java" />
         <option value="$PROJECT_DIR$/src/edu/wit/dcsn/comp2000/listapp/PileOfCards.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-1" />
-    <option name="width" value="902" />
-    <option name="height" value="1600" />
+    <option name="width" value="2562" />
+    <option name="height" value="1390" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -120,8 +125,10 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -140,12 +147,19 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="listapp" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="DS - App 4 List - Group 36" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+            <path>
+              <item name="DS - App 4 List - Group 36" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; 9 &gt;" type="70bed36:NamedLibraryElementNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -155,6 +169,12 @@
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.splitter.proportion" value="0.25463414" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/List ADT/ListInterface.java" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/edu/wit/dcsn/comp2000/listapp" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -331,11 +351,109 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/edu/wit/dcsn/comp2000/listapp/DeckOfCards.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="2" column="26" lean-forward="false" selection-start-line="2" selection-start-column="26" selection-end-line="2" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/edu/wit/dcsn/comp2000/listapp/Card.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/edu/wit/dcsn/comp2000/listapp/PlayerHand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="15" lean-forward="false" selection-start-line="0" selection-start-column="15" selection-end-line="0" selection-end-column="15" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/edu/wit/dcsn/comp2000/listapp/PileOfCards.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="4" column="24" lean-forward="false" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
+          <folding>
+            <element signature="e#625#655#1" expanded="true" />
+            <element signature="e#1812#1813#0" expanded="true" />
+            <element signature="e#1854#1855#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/edu/wit/dcsn/comp2000/listapp/Player.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
           <caret line="10" column="10" lean-forward="false" selection-start-line="10" selection-start-column="10" selection-end-line="10" selection-end-column="10" />
+          <folding>
+            <element signature="e#198#199#0" expanded="true" />
+            <element signature="e#230#231#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/edu/wit/dcsn/comp2000/listapp/ListInterface.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2472">
+          <caret line="103" column="28" lean-forward="true" selection-start-line="103" selection-start-column="4" selection-end-line="103" selection-end-column="28" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/edu/wit/dcsn/comp2000/listapp/DeckOfCards.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="2" column="26" lean-forward="false" selection-start-line="2" selection-start-column="26" selection-end-line="2" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/edu/wit/dcsn/comp2000/listapp/Card.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/edu/wit/dcsn/comp2000/listapp/PlayerHand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="15" lean-forward="false" selection-start-line="0" selection-start-column="15" selection-end-line="0" selection-end-column="15" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/edu/wit/dcsn/comp2000/listapp/PileOfCards.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+          <folding>
+            <element signature="e#625#655#1" expanded="true" />
+            <element signature="e#1812#1813#0" expanded="true" />
+            <element signature="e#1854#1855#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/edu/wit/dcsn/comp2000/listapp/Player.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="10" column="10" lean-forward="false" selection-start-line="10" selection-start-column="10" selection-end-line="10" selection-end-column="10" />
+          <folding>
+            <element signature="e#198#199#0" expanded="true" />
+            <element signature="e#230#231#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -369,7 +487,11 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="744">
           <caret line="33" column="4" lean-forward="false" selection-start-line="33" selection-start-column="4" selection-end-line="33" selection-end-column="4" />
-          <folding />
+          <folding>
+            <element signature="e#625#655#1" expanded="true" />
+            <element signature="e#1812#1813#0" expanded="true" />
+            <element signature="e#1854#1855#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -377,7 +499,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="504">
           <caret line="30" column="0" lean-forward="false" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="e#198#199#0" expanded="true" />
+            <element signature="e#230#231#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -385,7 +510,11 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="744">
           <caret line="33" column="2" lean-forward="false" selection-start-line="33" selection-start-column="2" selection-end-line="33" selection-end-column="2" />
-          <folding />
+          <folding>
+            <element signature="e#625#655#1" expanded="true" />
+            <element signature="e#1812#1813#0" expanded="true" />
+            <element signature="e#1854#1855#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -403,7 +532,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="504">
           <caret line="30" column="0" lean-forward="false" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="e#198#199#0" expanded="true" />
+            <element signature="e#230#231#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -421,7 +553,11 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="744">
           <caret line="33" column="2" lean-forward="false" selection-start-line="33" selection-start-column="2" selection-end-line="33" selection-end-column="2" />
-          <folding />
+          <folding>
+            <element signature="e#625#655#1" expanded="true" />
+            <element signature="e#1812#1813#0" expanded="true" />
+            <element signature="e#1854#1855#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -436,7 +572,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="e#198#199#0" expanded="true" />
+            <element signature="e#230#231#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -454,7 +593,11 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="744">
           <caret line="33" column="2" lean-forward="false" selection-start-line="33" selection-start-column="2" selection-end-line="33" selection-end-column="2" />
-          <folding />
+          <folding>
+            <element signature="e#625#655#1" expanded="true" />
+            <element signature="e#1812#1813#0" expanded="true" />
+            <element signature="e#1854#1855#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -462,7 +605,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="144">
           <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -470,7 +612,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="72">
           <caret line="2" column="19" lean-forward="false" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
-          <folding />
+          <folding>
+            <element signature="e#198#199#0" expanded="true" />
+            <element signature="e#230#231#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -504,7 +649,11 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="72">
           <caret line="2" column="24" lean-forward="false" selection-start-line="2" selection-start-column="24" selection-end-line="2" selection-end-column="24" />
-          <folding />
+          <folding>
+            <element signature="e#625#655#1" expanded="true" />
+            <element signature="e#1812#1813#0" expanded="true" />
+            <element signature="e#1854#1855#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -512,7 +661,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="144">
           <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -520,7 +668,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="72">
           <caret line="2" column="19" lean-forward="false" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
-          <folding />
+          <folding>
+            <element signature="e#198#199#0" expanded="true" />
+            <element signature="e#230#231#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -546,7 +697,11 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="72">
           <caret line="2" column="24" lean-forward="false" selection-start-line="2" selection-start-column="24" selection-end-line="2" selection-end-column="24" />
-          <folding />
+          <folding>
+            <element signature="e#625#655#1" expanded="true" />
+            <element signature="e#1812#1813#0" expanded="true" />
+            <element signature="e#1854#1855#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -562,7 +717,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="96">
           <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -573,34 +727,76 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$USER_HOME$/.cache/.fr-GMLrVT/ListInterface.java" />
+    <entry file="file://$USER_HOME$/.cache/.fr-soH6ao/ListInterface.java" />
+    <entry file="file://$USER_HOME$/Desktop/ListInterface.java" />
+    <entry file="file://$USER_HOME$/Desktop/List ADT/ListInterface.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/edu/wit/dcsn/comp2000/listapp/ListInterface.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="24">
+          <caret line="1" column="38" lean-forward="false" selection-start-line="1" selection-start-column="38" selection-end-line="1" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/edu/wit/dcsn/comp2000/listapp/Card.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="48">
-          <caret line="2" column="17" lean-forward="false" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+        <state relative-caret-position="28">
+          <caret line="64" column="5" lean-forward="true" selection-start-line="64" selection-start-column="5" selection-end-line="64" selection-end-column="5" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/edu/wit/dcsn/comp2000/listapp/Rank.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="15" column="12" lean-forward="false" selection-start-line="15" selection-start-column="12" selection-end-line="15" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/edu/wit/dcsn/comp2000/listapp/Suit.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="18" column="12" lean-forward="false" selection-start-line="18" selection-start-column="12" selection-end-line="18" selection-end-column="12" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/edu/wit/dcsn/comp2000/listapp/DeckOfCards.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="48">
-          <caret line="2" column="26" lean-forward="false" selection-start-line="2" selection-start-column="26" selection-end-line="2" selection-end-column="26" />
-          <folding />
+        <state relative-caret-position="672">
+          <caret line="28" column="9" lean-forward="true" selection-start-line="28" selection-start-column="9" selection-end-line="28" selection-end-column="9" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/edu/wit/dcsn/comp2000/listapp/Player.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="10" column="10" lean-forward="false" selection-start-line="10" selection-start-column="10" selection-end-line="10" selection-end-column="10" />
-          <folding />
+        <state relative-caret-position="504">
+          <caret line="27" column="0" lean-forward="true" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+          <folding>
+            <element signature="e#198#199#0" expanded="true" />
+            <element signature="e#230#231#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/edu/wit/dcsn/comp2000/listapp/PlayerHand.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="15" lean-forward="false" selection-start-line="0" selection-start-column="15" selection-end-line="0" selection-end-column="15" />
+        <state relative-caret-position="576">
+          <caret line="24" column="9" lean-forward="true" selection-start-line="24" selection-start-column="9" selection-end-line="24" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -609,9 +805,13 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/edu/wit/dcsn/comp2000/listapp/PileOfCards.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="744">
-          <caret line="33" column="4" lean-forward="false" selection-start-line="33" selection-start-column="4" selection-end-line="33" selection-end-column="4" />
-          <folding />
+        <state relative-caret-position="100">
+          <caret line="92" column="24" lean-forward="true" selection-start-line="92" selection-start-column="24" selection-end-line="92" selection-end-column="24" />
+          <folding>
+            <element signature="e#625#655#1" expanded="true" />
+            <element signature="e#1812#1813#0" expanded="true" />
+            <element signature="e#1854#1855#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
