@@ -98,8 +98,19 @@ public class PileOfCards<Card> implements ListInterface<Card>
     // Shuffles the deck by rearranging the Card objects in the array.
     public void shuffle()
     {
-
-    }
+        for (int j = 0; j < 50; j++) {  // repeat 50 times...
+            // go through the array of cards, and swap each card with
+            //  another, randomly chosen card
+            for (int i = 0; i < list.length; i++) {
+                int randomIndex = (int)(list.length*Math.random());
+                
+                // swap the Card objects at indices i and randomIndex
+                Card temp = list[i];
+                list[i] = list[randomIndex];
+                list[randomIndex] = temp;
+            }
+        }
+}
 
     // toString method -- just goes through the whole deck and adds each
     //  individual card to the returned string
