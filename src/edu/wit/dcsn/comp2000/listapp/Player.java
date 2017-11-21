@@ -6,11 +6,16 @@ public class Player
 
     private int score = 0;
 
-    PlayerHand hand = new PlayerHand();
+    DeckOfCards hand;
+    
+    public Player() {
+    		this("default");
+    }
 
     public Player(String name)
     {
         this.name = name;
+        hand = new DeckOfCards();
     }
 
     public void increaseScore()
@@ -18,7 +23,7 @@ public class Player
         this.score++;
     }
 
-    public PlayerHand getHand() {
+    public DeckOfCards getHand() {
         return this.hand;
     }
 

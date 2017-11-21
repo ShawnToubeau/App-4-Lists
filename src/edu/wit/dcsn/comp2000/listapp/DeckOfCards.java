@@ -8,7 +8,7 @@
 
 package edu.wit.dcsn.comp2000.listapp;
 
-public class DeckOfCards extends PileOfCards<Object>
+public class DeckOfCards extends PileOfCards<Card>
 {
 	PileOfCards<Card> deck;
 	
@@ -38,8 +38,10 @@ public class DeckOfCards extends PileOfCards<Object>
 	 */
 	public Card deal()
 	{
-		return (Card) this.remove(0);
+		return this.remove(0);
 	}
+	
+	
 	
 	/**
 	 * Used to test the methods of the Card class in a controlled

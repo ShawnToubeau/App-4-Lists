@@ -1,5 +1,6 @@
 package edu.wit.dcsn.comp2000.listapp;
 
+import java.util.ArrayList;
 import java.util.Arrays;
 
 public class PileOfCards<Card> implements ListInterface<Card>
@@ -123,7 +124,15 @@ public class PileOfCards<Card> implements ListInterface<Card>
                 list[randomIndex] = temp;
             }
         }
-}
+    }
+    
+    public ArrayList<Card> getCards(){
+    	ArrayList<Card> allCards = new ArrayList<>();
+    	for(Card currentCard : list) {
+    		allCards.add(currentCard);
+    	}
+    	return allCards;
+    }
 
     // toString method -- just goes through the whole deck and adds each
     //  individual card to the returned string

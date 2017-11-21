@@ -4,19 +4,24 @@ import java.util.ArrayList;
 import java.util.HashSet;
 import java.util.Set;
 
-public class PlayerHand extends PileOfCards {
+public class PlayerHand extends PileOfCards<Card> {
 
     PileOfCards<Card> PileOfCards = new PileOfCards<>();
     //USE PILEOFCARDS AS A MEANS OF STORING PLAYER CARDS
 
     // constructor for hand object
     // pass in initial cards
-    public void PlayerHand(Card[] initialCards)
+    public PlayerHand() {
+    		this(new Card[0]);
+    }
+    
+    public PlayerHand(Card[] initialCards)
     {
-        for (Card card : initialCards)
-        {
-            PileOfCards.add(card);
-        }
+    		super();
+    }
+    
+    public ArrayList<Card> checkHand(){
+    		return this.getCards();
     }
 
     public Card releaseCard(Card card)
