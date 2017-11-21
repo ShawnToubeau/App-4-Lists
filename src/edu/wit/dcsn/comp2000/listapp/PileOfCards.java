@@ -7,6 +7,7 @@ public class PileOfCards<Card> implements ListInterface<Card>
     private Card[] list;
     private int frontIndex;
     private int backIndex;
+    private int currentCap;
     private boolean initialized = false;
     private static final int DEFAULT_CAPACITY = 50;
     private static final int MAX_CAPACITY = 10000;
@@ -22,19 +23,27 @@ public class PileOfCards<Card> implements ListInterface<Card>
 
         // The cast is safe because the new array contains null entries
         @SuppressWarnings("unchecked")
-        Card[] tempList = (Card[]) new Object[initialCapacity + 1];
+        Card[] tempList = (Card[]) new Object[initialCapacity];
         list = tempList;
         frontIndex = 0;
-        backIndex = initialCapacity;
+        backIndex = 0;
+        currentCap = initialCapacity;
         initialized = true;
     } // end constructor
 
     public boolean add(Card newEntry) {
-        list[list.length+1] = newEntry;
+    		if(backIndex == currentCap) {
+    			return false;
+    		}
+        list[backIndex] = newEntry;
+        backIndex++;
         return true;
     }
 
     public boolean add(int newPosition, Card newEntry) {
+    		if(backIndex == currentCap) {
+    			return false;
+    		}
         Card[] copy = (Card[]) new Object[list.length];
         for (int i = 0; i < newPosition; i++) {
             copy[i] = list[i];
@@ -44,18 +53,22 @@ public class PileOfCards<Card> implements ListInterface<Card>
             copy[j] = list[j - 1];
         }
         list = copy;
+        backIndex++;
         return true;
     }
 
     public void clear() {
-        for (int i = 0; i < list.length; i++) {
+        for (int i = 0; i < currentCap; i++) {
             list[i] = null;
         }
     }
 
     public Card remove(int givenPosition) {
         Card card = list[givenPosition];
-        list[givenPosition] = null;
+        for(int i = givenPosition; i < currentCap-1; i++) {
+        		list[i] = list[i+1];
+        }
+        backIndex--;
         return card;
     }
 
@@ -78,18 +91,18 @@ public class PileOfCards<Card> implements ListInterface<Card>
     }
 
     public int getLength() {
-        return list.length;
+        return backIndex;
     }
 
     public boolean isEmpty() {
-        if (list.length == 0) {
+        if (backIndex == 0) {
             return true;
         }
         return false;
     }
 
     public boolean isFull() {
-        if (list.length == DEFAULT_CAPACITY) {
+        if (backIndex == currentCap-1) {
             return true;
         }
         return false;
@@ -98,8 +111,19 @@ public class PileOfCards<Card> implements ListInterface<Card>
     // Shuffles the deck by rearranging the Card objects in the array.
     public void shuffle()
     {
-
-    }
+        for (int j = 0; j <= 50; j++) {  // repeat 50 times...
+            // go through the array of cards, and swap each card with
+            //  another, randomly chosen card
+            for (int i = 0; i < backIndex; i++) {
+                int randomIndex = (int)((backIndex-1)*Math.random());
+                
+                // swap the Card objects at indices i and randomIndex
+                Card temp = list[i];
+                list[i] = list[randomIndex];
+                list[randomIndex] = temp;
+            }
+        }
+}
 
     // toString method -- just goes through the whole deck and adds each
     //  individual card to the returned string

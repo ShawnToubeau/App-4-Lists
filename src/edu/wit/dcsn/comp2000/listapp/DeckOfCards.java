@@ -18,17 +18,19 @@ public class DeckOfCards extends PileOfCards<Object>
 	 */
 	public DeckOfCards()
 	{
-		deck = new PileOfCards<Card>(52);
+//		deck = new PileOfCards<Card>(52);
+		
+		super(52);
 		
 		for(Suit aSuit : Suit.values())
 		{
 			for(Rank aRank : Rank.values())
 			{
-				deck.add(new Card(aRank, aSuit));
+				this.add(new Card(aRank, aSuit));
 			}
 		}
 		
-		deck.shuffle();
+		this.shuffle();
 	}
 	
 	/**
@@ -36,7 +38,7 @@ public class DeckOfCards extends PileOfCards<Object>
 	 */
 	public Card deal()
 	{
-		return deck.remove(0);
+		return (Card) this.remove(0);
 	}
 	
 	/**
@@ -47,11 +49,25 @@ public class DeckOfCards extends PileOfCards<Object>
 	 */
 	public static void main(String[] args)
 	{
+		
+//		int k = 0;
+//		while(k < 1000) {
+//			DeckOfCards deck = new DeckOfCards();
+//			System.out.print(deck.isFull());
+//			System.out.println(deck.deal().toString());
+//			k++;
+//		}
+		int b = 0;
 		DeckOfCards deck = new DeckOfCards();
+		for(int i = 0; i < deck.getLength(); i++) {
+			System.out.println(deck.getEntry(i));
+			b++;
+		}
+		System.out.println(deck.getLength() + " " + b);
 		
 		System.out.println("The deck currently has " + deck.getLength() + " cards in it.");
 		
-		deck.deal();
+		System.out.println(deck.deal().toString());
 		
 		System.out.println("The deck currently has " + deck.getLength() + " cards in it.");
 	
