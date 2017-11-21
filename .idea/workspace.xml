@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cc100d59-5480-4b25-baf9-d86a449f1539" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/edu/wit/dcsn/comp2000/listapp/PileOfCards_BACKUP_6181.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/edu/wit/dcsn/comp2000/listapp/PileOfCards_BASE_6181.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/edu/wit/dcsn/comp2000/listapp/PileOfCards_LOCAL_6181.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/edu/wit/dcsn/comp2000/listapp/PileOfCards_REMOTE_6181.java" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/edu/wit/dcsn/comp2000/listapp/PileOfCards.java" afterPath="$PROJECT_DIR$/src/edu/wit/dcsn/comp2000/listapp/PileOfCards.java" />
-    </list>
+    <list default="true" id="cc100d59-5480-4b25-baf9-d86a449f1539" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
