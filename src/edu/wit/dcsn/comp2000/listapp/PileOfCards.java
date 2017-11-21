@@ -127,9 +127,9 @@ public class PileOfCards<Card> implements ListInterface<Card>
 
     // toString method -- just goes through the whole deck and adds each
     //  individual card to the returned string
-    public String toString()
-    {
-        return Arrays.toString(list.toArray());
+//    public String toString()
+//    {
+//        return Arrays.toString(list.toArray());
 //        StringBuilder text = new StringBuilder();
 //        for (Card aCard : list)
 //        {
@@ -145,6 +145,6 @@ public class PileOfCards<Card> implements ListInterface<Card>
 //        text.append("]");
 //
 //        return text.toString();
-    }
+//    }
 
 }
