@@ -85,7 +85,7 @@ public class Card implements Comparable<Card>
 	 */
 	public String toString()
 	{
-		return "This card is the " + rank + " of " + suit;
+		return "This card is the " + rank.getDisplayName() + " of " + suit.getDisplayName();
 	}
 	
 	/**
